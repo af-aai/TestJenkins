@@ -1,0 +1,61 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-20T10:45:55.258Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4002385000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TestJenkins.stepdefinitions.Hooks.setup()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "",
+        "description": "",
+        "id": "various-actions;",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5218328000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user go to jenkins remote activate page",
+            "match": {
+              "location": "TestJenkins.stepdefinitions.normal.user_go_to_jenkins_remote_activate_page()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "various actions",
+    "description": "",
+    "id": "various-actions",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/jenkins.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
