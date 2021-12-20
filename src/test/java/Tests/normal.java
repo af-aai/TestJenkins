@@ -9,7 +9,8 @@ public class normal {
     public static WebDriver driver =new ChromeDriver();
 
     @Test
-    public void testJenkins() {
+    public void testJenkins() throws InterruptedException {
+        Thread.sleep(5000);
         driver.get("http://localhost:8080/job/Test_generalapp/build?token=elyarabdullah");
     }
 }
